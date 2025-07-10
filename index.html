@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz FOD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz para Promoción de FOD</h1>  
+
+        <div id="game-modes">
+            <h2>Selecciona el modo de juego</h2>
+            <button id="mode-mixed">Mezclado</button>
+            <button id="mode-files">Archivos</button>
+            <button id="mode-trees">Árboles</button>
+            <button id="mode-hashing">Hashing</button>
+            <br>
+            <label for="question-count">Cantidad de preguntas:</label>
+            <input type="number" id="question-count" min="1" max="100" value="20">
+        </div>
+        <div id="quiz-container" style="display: none;">
+            <div id="question-counter"></div>
+            <div id="question-text"></div>
+            <div id="options-container" class="options-container"></div>
+            <div id="feedback-message" style="margin-top: 10px; font-weight: bold;"></div>
+            <button id="next-button" disabled>Siguiente</button>
+            <button id="back-button" class="back-button">Volver al menú</button>
+        </div>
+
+        <div id="results-container" style="display: none;">
+            <h2>Resultados</h2>
+            <p id="score-text"></p>
+            <p id="percentage-text"></p>
+            <button id="restart-button">Volver a Jugar</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Página creada por Francisco Colombo y IA 🤖</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
