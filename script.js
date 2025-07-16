@@ -606,9 +606,10 @@ const questions = {
                 "Ocupan lugar en memoria RAM.",
                 "El SO está encargado de manipularlos.",
                 "Mejoran la performance en lecturas y escrituras.",
+                "Algunas de las anteriores.",
                 "Ninguna de las anteriores."
             ],
-            correctAnswer: "Ocupan lugar en memoria RAM , El SO está encargado de manipularlos , Mejoran la performance en lecturas y escrituras."
+            correctAnswer: "Algunas de las anteriores."
         },
         {
             question: "Dado un archivo de índice secundario implementado con el método de listas invertidas:",
