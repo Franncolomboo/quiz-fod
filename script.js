@@ -2211,12 +2211,12 @@ const questions = {
             correctAnswer: "Ninguna."
         },
         {
-            question: "Si se dispone la FD de un archivo:",
+            question: "Si se dispone la DE de un archivo:",
             options: [
                 "Siempre se puede calcular la cantidad probable de registros en saturación.",
                 "No se puede calcular la cantidad probable de registros en saturación.",
-                "Si se calcula la cantidad probable de registros en saturación, la FD fue mayor que 1.",
-                "Si se calcula la cantidad probable de registros en saturación, la FD fue menor que 1.",
+                "Si se calcula la cantidad probable de registros en saturación, la DE fue mayor que 1.",
+                "Si se calcula la cantidad probable de registros en saturación, la DE fue menor que 1.",
                 "Algunas.",
                 "Ninguna."
             ],
